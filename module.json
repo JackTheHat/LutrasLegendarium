@@ -1,7 +1,7 @@
 {
-  "id": "lutras-legendarium",
+  "id": "LutrasLegendarium",
   "title": "Lutras Legendarium",
-  "version": "1.0.0",
+  "version": "0.01-alpha",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -10,7 +10,8 @@
     "systems": [
       {
         "id": "dnd5e",
-        "type": "system"
+        "type": "system",
+        "compatibility": {}
       }
     ]
   },
@@ -26,66 +27,67 @@
       "label": "Actors",
       "path": "packs/actors",
       "type": "Actor",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
       "name": "character-options",
       "label": "Character-Options",
       "path": "packs/character-options",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
       "name": "items",
       "label": "Ítems",
       "path": "packs/items",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
       "name": "text-files",
       "label": "Text-Files",
       "path": "packs/text-files",
       "type": "JournalEntry",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
       "name": "prefabs",
       "label": "Adventure-Prefabs",
       "path": "packs/prefabs",
       "type": "Adventure",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
       "name": "scenes",
       "label": "Scenes",
       "path": "packs/scenes",
       "type": "Scene",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     }
-  ]
+  ],
+  "url": "https://github.com/JackTheHat/LutrasLegendarium"
 }
