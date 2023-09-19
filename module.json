@@ -89,5 +89,11 @@
       }
     }
   ],
-  "url": "https://github.com/JackTheHat/LutrasLegendarium"
+  "url": "https://github.com/JackTheHat/LutrasLegendarium",
+  "download": "https://github.com/JackTheHat/LutrasLegendarium/archive/refs/heads/main.zip",
+  "manifest": "https://github.com/JackTheHat/LutrasLegendarium/releases/latest/download/module.json",
+  "readme": "https://github.com/JackTheHat/LutrasLegendarium/blob/main/README.md",
+  "changelog": "https://github.com/JackTheHat/LutrasLegendarium/blob/main/Changelog",
+  "bugs": "https://github.com/JackTheHat/LutrasLegendarium/issues",
+  "allowBugReporter": true
 }
