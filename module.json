@@ -1,7 +1,7 @@
 {
   "id": "LutrasLegendarium",
   "title": "Lutras Legendarium",
-  "version": "0.04-alpha",
+  "version": "0.041-alpha",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -17,11 +17,13 @@
     "requires": [
       {
         "id": "link-item-resource-5e",
-        "type": "module"
+        "type": "module",
+        "compatibility": {}
       },
       {
         "id": "lib-wrapper",
-        "type": "module"
+        "type": "module",
+        "compatibility": {}
       }
     ]
   },
@@ -97,10 +99,21 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
     }
   ],
   "url": "https://github.com/JackTheHat/LutrasLegendarium",
-  "download": "https://github.com/JackTheHat/LutrasLegendarium/archive/refs/tags/0.04.zip",
+  "download": "https://github.com/JackTheHat/LutrasLegendarium/archive/refs/tags/0.041.zip",
   "manifest": "https://github.com/JackTheHat/LutrasLegendarium/releases/latest/download/module.json",
   "readme": "https://github.com/JackTheHat/LutrasLegendarium/blob/main/README.md",
   "changelog": "https://github.com/JackTheHat/LutrasLegendarium/blob/main/Changelog",
