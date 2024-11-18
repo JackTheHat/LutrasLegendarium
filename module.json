@@ -29,6 +29,9 @@
       "flags": {}
     }
   ],
+  "esmodules": [
+  "scripts/CustomFeatures.js"
+  ],
   "packs": [
     {
       "name": "actors",
