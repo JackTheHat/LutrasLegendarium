@@ -26,11 +26,12 @@
   "authors": [
     {
       "name": "Lutra",
+      "discord": "lutralutra",
       "flags": {}
     }
   ],
   "esmodules": [
-  "scripts/CustomFeatures.js"
+    "scripts/CustomFeatures.js"
   ],
   "packs": [
     {
