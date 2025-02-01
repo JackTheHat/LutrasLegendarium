@@ -43,7 +43,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "character-options",
@@ -54,7 +55,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "items",
@@ -65,7 +67,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "text-files",
@@ -76,7 +79,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "prefabs",
@@ -87,7 +91,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "scenes",
@@ -98,7 +103,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "spells",
@@ -109,7 +115,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "tables",
@@ -120,12 +127,13 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     }
   ],
   "url": "https://github.com/JackTheHat/LutrasLegendarium",
   "download": "https://github.com/JackTheHat/LutrasLegendarium/archive/refs/tags/0.076.zip",
-  "manifest": "https://github.com/JackTheHat/LutrasLegendarium/releases/latest/download/module.json",
+  "manifest": "https://github.com/JackTheHat/LutrasLegendarium/releases/download/0.076/module.json",
   "readme": "https://github.com/JackTheHat/LutrasLegendarium/blob/main/README.md",
   "changelog": "https://github.com/JackTheHat/LutrasLegendarium/blob/main/Changelog",
   "bugs": "https://github.com/JackTheHat/LutrasLegendarium/issues"
