@@ -3,8 +3,8 @@
   "title": "Lutras Legendarium",
   "version": "0.078-alpha",
   "compatibility": {
-    "minimum": "11",
-    "verified": "11"
+    "minimum": "12",
+    "verified": "12"
   },
   "relationships": {
     "systems": [
@@ -16,11 +16,6 @@
     ],
     "requires": [
       {
-        "id": "link-item-resource-5e",
-        "type": "module",
-        "compatibility": {}
-      },
-      {
         "id": "lib-wrapper",
         "type": "module",
         "compatibility": {}
@@ -30,8 +25,13 @@
   "description": "A collection of content for Mervenden. Containing Basic Scenes, World and Character options.",
   "authors": [
     {
-      "name": "Lutra"
+      "name": "Lutra",
+      "discord": "lutralutra",
+      "flags": {}
     }
+  ],
+  "esmodules": [
+    "scripts/CustomFeatures.js"
   ],
   "packs": [
     {
@@ -43,7 +43,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "character-options",
@@ -54,7 +55,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "items",
@@ -65,7 +67,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "text-files",
@@ -76,7 +79,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "prefabs",
@@ -87,7 +91,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "scenes",
@@ -98,7 +103,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "spells",
@@ -109,23 +115,25 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "tables",
       "label": "Tables",
       "path": "packs/tables",
       "type": "RollTable",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e"
+      "flags": {}
     }
   ],
   "url": "https://github.com/JackTheHat/LutrasLegendarium",
   "download": "https://github.com/JackTheHat/LutrasLegendarium/archive/refs/tags/0.078.zip",
-  "manifest": "https://github.com/JackTheHat/LutrasLegendarium/releases/download/latest/module.json",
+  "manifest": "https://github.com/JackTheHat/LutrasLegendarium/releases/latest/module.json",
   "readme": "https://github.com/JackTheHat/LutrasLegendarium/blob/main/README.md",
   "changelog": "https://github.com/JackTheHat/LutrasLegendarium/blob/main/Changelog",
   "bugs": "https://github.com/JackTheHat/LutrasLegendarium/issues"
