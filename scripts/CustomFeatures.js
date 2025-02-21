@@ -12,3 +12,8 @@ Hooks.on("ready", function() {
 Hooks.once("init", () => {
   CONFIG.DND5E.featureTypes.class.subtypes.instinct = "Hunters Instinct";
 });
+
+// Adds a new "Necromantic Power" class feature type
+Hooks.once("init", () => {
+  CONFIG.DND5E.featureTypes.class.subtypes.necropower = "Necromantic Power";
+});
