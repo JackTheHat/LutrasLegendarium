@@ -1,10 +1,10 @@
 {
   "id": "LutrasLegendarium",
   "title": "Lutras Legendarium",
-  "version": "0.079.1-alpha",
+  "version": "0.08",
   "compatibility": {
-    "minimum": "12",
-    "verified": "12"
+    "minimum": "14",
+    "verified": "14"
   },
   "relationships": {
     "systems": [
@@ -22,7 +22,7 @@
       }
     ]
   },
-  "description": "A collection of content for Mervenden. Containing Basic Scenes, World and Character options.",
+  "description": "<p>A collection of content for Mervenden. Containing Basic Scenes, World and Character options.</p>",
   "authors": [
     {
       "name": "Lutra",
@@ -136,5 +136,6 @@
   "manifest": "https://github.com/JackTheHat/LutrasLegendarium/releases/latest/module.json",
   "readme": "https://github.com/JackTheHat/LutrasLegendarium/blob/main/README.md",
   "changelog": "https://github.com/JackTheHat/LutrasLegendarium/blob/main/Changelog",
-  "bugs": "https://github.com/JackTheHat/LutrasLegendarium/issues"
+  "bugs": "https://github.com/JackTheHat/LutrasLegendarium/issues",
+  "flags": {}
 }
