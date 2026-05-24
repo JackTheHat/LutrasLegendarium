@@ -1,7 +1,7 @@
 {
   "id": "LutrasLegendarium",
   "title": "Lutras Legendarium",
-  "version": "0.08",
+  "version": "0.08.1",
   "compatibility": {
     "minimum": "14",
     "verified": "14"
@@ -132,8 +132,8 @@
     }
   ],
   "url": "https://github.com/JackTheHat/LutrasLegendarium",
-  "download": "https://github.com/JackTheHat/LutrasLegendarium/archive/refs/tags/0.079.1.zip",
-  "manifest": "https://github.com/JackTheHat/LutrasLegendarium/releases/latest/module.json",
+  "download": "https://github.com/JackTheHat/LutrasLegendarium/archive/refs/tags/0.08.1.zip",
+  "manifest": "https://github.com/JackTheHat/LutrasLegendarium/releases/latest/download/module.json",
   "readme": "https://github.com/JackTheHat/LutrasLegendarium/blob/main/README.md",
   "changelog": "https://github.com/JackTheHat/LutrasLegendarium/blob/main/Changelog",
   "bugs": "https://github.com/JackTheHat/LutrasLegendarium/issues",
